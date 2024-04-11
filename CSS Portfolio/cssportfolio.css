@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background: url('../Images/pexels-sebastiaan-stam-1097456.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+header span {
+    display: block;
+    padding: 30px 0;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+header .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 140px;
+}
+header .header-content h1 {
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase; 
+    margin-bottom: 30px;
+}
+header .header-content button {
+    background-color: #f53f72;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all ease-in-out;
+}
+header .header-content .button:link {
+    background: #f53f72;
+    color: #fff;
+}
+header .header-content button:hover {
+    background: #fff;
+    color: #f53f72;
+    transition: .5s ease-in-out;
+}
+
+.section1 {
+    background-color: #fff;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1 .flex1 {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section1 .aboutme {
+    width: 450px;
+}
+.section1 .aboutme h1 {
+    color: #f53f72;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.section1 .aboutme p {
+    text-align: justify;
+    line-height: 1.5;
+    color: #8b9da8;
+}
+.section1 .my-photo {
+    width: 450px;
+}
+.section1 .my-photo img {
+    width: 100%;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.section2 {
+    height: 100vh;
+    background: #000;
+    text-align: center;
+    color: #fff;
+}
+.section2 h3 {
+    font-size: 40px;
+    padding: 50px 0;
+    color: #f53f72;
+    text-shadow: 1px 2px #8b9da8;
+}
+.section2 .flex2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section2 .sub-flex2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+}
+.section2 .sub-flex2 .my-photo1 {
+    text-align: center;
+    background: #fff;
+    border-radius: 50px;
+    width: 320px;
+}
+.section2 .sub-flex2 .my-photo1 img {
+    width: 100%;
+    display: block;
+    height: 350px;
+    border-radius: 50px;
+}
+.section2 .sub-flex2 .my-photo1 p {
+    padding: 30px 0;
+    color: #000;
+}
+
+.section3 {
+    height: 500px;
+    background-color: #e3e9f4;
+}
+.section3 h3 {
+    text-align: center;
+    font-size: 40px;
+    padding: 50px 0 50px;
+    color: #f53f72;
+    text-shadow: 1px 2px #000;
+}
+.section3 .flex3 {
+    padding: 0 30px 0 30px;
+}
+.section3 .flex3 .sub-flex3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1em;
+}
+.section3 .flex3 .sub-flex3 .my-photo3 {
+    /* border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 1px solid #8b9da8; */
+    padding: 20px 20px;
+}
+.section3 .flex3 .sub-flex3 .my-photo3 h4 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    color: #8b9da8;
+}
+.section3 ul {
+    list-style-type: square;
+    margin-left: 50px;
+    opacity: .8;
+}
+.section3 ul li {
+    line-height: 2;
+}
+
+.section4 {
+    height: 100vh;
+    background-color: #8b9da8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+}
+.section4 h4 {
+    font-size: 40px;
+    color: #f53f72;
+    text-shadow: 1px 2px #000;
+    text-align: center;
+    padding: 30px 0;
+}
+.section4 .myPhotos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+.section4 .myPhotos img {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.section5 {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+}
+.section5 img {
+    width: 400px;
+    border-radius: 50%;
+}
+.section5 .aside5 {
+    line-height: 2;
+}
+.section5 .aside5 h2 {
+    font-size: 50px;
+    color: #f53f72;
+    text-shadow: 1px 2px #8b9da8;
+}
+.section5 .aside5 span {
+    color: #8b9da8;
+}
